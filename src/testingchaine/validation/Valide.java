@@ -5,6 +5,15 @@ public class Valide {
 	{
 		return !ch.isBlank();
 	}
+	public boolean veriflength(String ch)
+	{
+		if(ch.length()>10)
+			return true;
+		else 
+			return false;
+		//return ch.length()>10
+		
+	}
 	
 	
 
