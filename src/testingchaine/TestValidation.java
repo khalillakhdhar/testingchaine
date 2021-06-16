@@ -19,4 +19,15 @@ public void notnull()
 {
 assertTrue(v.verifNotNull("teste"));	
 }
+@Test
+public void testlongueur()
+{
+assertTrue(v.veriflength("bonjour le monde!"));
+
+}
+@Test
+public void testmot()
+{
+assertTrue(v.verifmots("bonjour tout le monde "));	
+}
 }
